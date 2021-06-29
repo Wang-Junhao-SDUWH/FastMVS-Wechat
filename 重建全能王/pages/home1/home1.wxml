@@ -1,0 +1,23 @@
+<view class='container'>
+  <view class='title-box'>
+  <image src='./img/3D_text.PNG' class='title-img'></image>
+  </view>
+  <view class='image-box'>
+  <block wx:for="{{usr_imgs}}">
+    <image src="{{item}}" class='main-img' style="width:{{img_width}}rpx; height:{{img_height}}rpx;" bindload="size_adaption" bindlongpress="save_pic_auth" bindtap="preview_img" data-url="{{item}}"></image>
+  </block>
+  </view>
+  
+  <!-- <canvas 
+    type="webgl" 
+    id="webgl" 
+    canvas-id="webgl" 
+    style="width:{{img_box_width}}rpx;height:{{img_box_height}}rpx;">
+  </canvas> -->
+
+  <view class='btn-box'>
+    <button class="func-btn" bindtap="fetch_img">{{pic_button}}</button>
+    <button class="func-btn" bindtap="reconstruction">三维重建</button>
+  </view>
+  <!-- <image src='img/sduwh.jpg' class='sduwh'></image> -->
+</view>

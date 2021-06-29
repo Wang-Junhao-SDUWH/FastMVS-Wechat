@@ -1,0 +1,43 @@
+/* pages/home/home.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: greenyellow; */
+  position: relative;
+  top:-150rpx;
+}
+.title-box{
+  /* position: absolute; */
+  margin: 20rpx;
+}
+.title-img{
+  width:660rpx;
+  height: 140rpx;
+}
+.image-box{
+  /* position: absolute; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blue; */
+  width: 90%;
+  height: 500rpx;
+  /* overflow: hidden; */
+}
+.btn-box{
+  /* position: absolute; */
+  margin: 150rpx;
+}
+.main-img{
+}
+.func-btn{
+  font-size:35rpx;
+  margin:15rpx;
+  background-color: black;
+  color: aliceblue;
+}
+.sduwh{
+  width: 100%;
+}
