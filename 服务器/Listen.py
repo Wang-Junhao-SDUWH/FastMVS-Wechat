@@ -1,3 +1,6 @@
+"""
+Copyright 2021, Yin Aihua, Tang Weiquan and Wang Junhao. 
+"""
 from flask import request,Flask,jsonify,Response
 from plyfile import PlyData,PlyElement
 from collections import OrderedDict
@@ -227,7 +230,7 @@ def gogogo(num):
 		save_depth(data2construct, preds, i)
 		if i == 0:
 			points = depth_image_to_point_cloud(ref_img, preds['coarse_depth_map'][0][0].detach().numpy(), ref_cam[1][0:3,0:3], ref_cam[0])
-			print("点云的形状 ： ", np.array(points).shape)
+			# print("点云的形状 ： ", np.array(points).shape)
 			ply_path = os.path.join('go','points.json')
 			save_points_as_json(ply_path, points)
 			del points
