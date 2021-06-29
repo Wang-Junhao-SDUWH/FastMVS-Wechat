@@ -2,7 +2,7 @@
 基于FastMVS Net的三维重建微信小程序。
 
 # Acknowledgements
-Some of the code is borrowed from FastMVSNet. We thank Zehao Yu and Shenghua Gao for their great works and repos.
+Some of the code is borrowed from [FastMVSNet](https://github.com/svip-lab/FastMVSNet). We thank Zehao Yu and Shenghua Gao for their great works and repos.<br>
 And their great paper:
 @inproceedings{Yu_2020_fastmvsnet,
   author    = {Zehao Yu and Shenghua Gao},
