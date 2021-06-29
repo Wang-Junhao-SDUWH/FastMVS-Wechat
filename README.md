@@ -1,2 +1,2 @@
 # FastMVS-Wechat
-FastMVS Net Implemention on Wechat applet
+FastMVS Net Implemention with Wechat applet
